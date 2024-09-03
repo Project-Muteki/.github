@@ -9,6 +9,6 @@ As to documentation of the system calls:
 - Threading is fully covered.
 - Filesystem has most of the essentials documented, but file-descriptor-related structures are still largely undocumented due to the sheer complexity of these.
 - Some miscellaneous syscalls that may or may not related to libc porting (RTC, battery percentage, etc.) are documented.
-- UI related syscalls are heavily work in progress.
+- UI related syscalls are heavily work in progress but the lower level (e.g. accessing surface/frame buffer) is pretty well understood.
 
 Use the [discussion area](https://github.com/Project-Muteki/project-muteki.github.io/discussions) if you have any general questions regarding to the project.
